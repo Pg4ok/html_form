@@ -2,4 +2,27 @@ body{
     font: 14pt 'Consolas';
     color: gray;
     text-align:center;
+    background: light;
+    background: lightgray;
+}
+nav{
+    background:#212f3c;
+    padding: 0px 5%;
+}
+section{
+    border: 0px solid yellow;
+}
+.left-pan{
+    float:left;
+    width: 50%;
+    text-align: left;
+}
+.right-pan{
+    margin-left:50%;
+    text-align: right;
+}
+nav ul{
+    color: white;
+    padding: 0;
+    margin: 0;
 }
