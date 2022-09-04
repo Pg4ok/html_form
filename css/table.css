@@ -3,4 +3,33 @@ table{
     width:70% ;
     margin: 0 auto;
     margin-top: 30px;
+    border-collapse: collapse;
+    border-spacing: 2px;
 }
+ th{
+    border: 5px double burlywood;
+    padding: 5px;
+ }
+ td{
+   border: 2px solid red;
+   padding: 5px;
+ }
+ .col-1{
+    width: 30%;
+    background-color: lightcoral;
+    color:navy;
+ }
+ .col-2{
+    width:40%;
+    background: lightgreen;
+    color: purple;
+ }
+ .col-3{
+    width:30%;
+    background: lightblue;
+    color: red;
+ }
+.foot{
+    background:rgb(54, 150, 153);
+    color:navy;
+ }
