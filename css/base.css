@@ -15,7 +15,7 @@ section{
 }
 .left-pan{
     float:left;
-    width: 50%;
+    width: 70%;
     text-align: left;
 }
 .right-pan{
@@ -43,4 +43,16 @@ nav ul li a{
 nav ul li a:hover{
     color:#212f3c;
     background: lightblue;
+}
+nav ul li ul{
+    position: absolute;
+    left:25px;
+    top:45px;
+    display: none;
+}
+nav ul li ul li{
+    display: block;
+}
+nav ul li:hover ul{
+ display: block;
 }
