@@ -56,3 +56,12 @@ nav ul li ul li{
 nav ul li:hover ul{
  display: block;
 }
+main{
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+footer{
+    padding: 0 5%;
+}
