@@ -1,0 +1,19 @@
+form{
+    
+    border-radius: 50px;
+    width: 50%;
+    padding: 20px;
+    margin: 30px auto;
+    background:  #3aafb9;
+    box-shadow: 5px 5px 15px 2px #64e9ee7f;
+}
+.tr td label{
+    color:#093a3e;
+}
+main tr td label{
+    color:#093a3e;
+}
+table{
+    margin: auto;
+    width:100%;
+}
