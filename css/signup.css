@@ -1,19 +1,51 @@
 form{
     
-    border-radius: 50px;
-    width: 50%;
-    padding: 20px;
-    margin: 30px auto;
+    border-radius: 10px;
+    width: 30%;
+    padding: 30px auto ;
+    margin: 30px auto ;
     background:  #3aafb9;
-    box-shadow: 5px 5px 15px 2px #64e9ee7f;
-}
-.tr td label{
-    color:#093a3e;
+    box-shadow: 0px 0px 15px 15px #093a3e;
 }
 main tr td label{
     color:#093a3e;
 }
-table{
-    margin: auto;
-    width:100%;
+table{ 
+    padding: 10px 0px 0px 0px;
+    margin: 30px auto;
+    width:75%;
+}
+.right1{
+    width: 25%;
+    
+    text-align:right;
+}
+.left1{
+    text-align:left;
+    
+}
+input{
+    border-radius: 25px;
+    padding: 10px;
+    width:97%;
+}
+label{
+    font:bold 13pt 'Maiandra GD';
+}
+.button{
+    font: 5em;
+    color:#64e9ee;
+    background-color: #093a3e;
+    width:30%;
+    padding: 5px;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+.button:hover{
+    background-color:#64e9ee;
+    color:#093a3e;
+}
+img{
+    width: 25%;
+    margin:5px auto ;
 }

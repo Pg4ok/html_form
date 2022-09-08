@@ -34,7 +34,7 @@ section{
 }
 .right-pan ul li a:hover{
    color:#212f3c;
-   background: lightblue;
+   background: #64e9ee;
 }
 nav ul{
     color: white;
@@ -48,7 +48,7 @@ nav ul li{
     position:  relative;
 }
 nav ul li a{
-    color:lightblue;
+    color:#64e9ee;
     text-decoration: none;
     display:block;
     padding: 10px 20px 12px 20px;
