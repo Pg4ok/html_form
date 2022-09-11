@@ -1,0 +1,77 @@
+table{
+    border:1px solid silver;
+    width:70% ;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+ th{
+    border: 5px double burlywood;
+    padding: 5px;
+ }
+ td{
+   text-align: center;
+   border: 2px solid red;
+   padding: 5px;
+ }
+ .spec1{
+   font-size: 16px;
+ }
+ .spectori2{
+   width: 100px;
+   font-size: 24px;
+ }
+ .spec2 > table{
+   border-collapse: collapse;
+ }
+ #main{
+   border-collapse: collapse;
+
+ }
+ .col-0 {
+    width: 10%;
+  
+    background-color: lightcoral;
+    color:navy;
+ }
+ .col-1 {
+   width: 10%;
+ 
+   background-color: lightcoral;
+   color:navy;
+}
+ .col-2{
+    width:40%;
+    background: lightgreen;
+    color: purple;
+ }
+ .col-3{
+    width:30%;
+    background: lightblue;
+    color: red;
+ }
+.foot{
+    background:rgb(54, 150, 153);
+    color:navy;
+ }
+.clPlus{
+   width: 1px;
+   display: block;
+}
+#col-0,#col-2  {
+   position: relative;
+}
+#clPLus{
+   left:-50px;
+}
+.col-4{
+   
+   background: rgb(226, 23, 241);
+   color: rgb(78, 0, 78);
+}
+.col-5{
+   width:30%;
+   background: rgb(255, 179, 0);
+   color: rgb(0, 255, 64);
+}
