@@ -9,14 +9,53 @@
     <link rel="stylesheet" href="css/base.css">
 </head>
 <style>
+    form{
+        color: #093a3e;
+        background-color: #3aafb9;
+        border: 1px solid silver;
+        border-radius: 10px;
+        width: 400px;
+        margin:15px auto;
+        padding: 15px;
+        box-shadow: 5px 5px 20px silver;
+    }
     select{
         font-size: 13pt;
         padding: 5px;
         width: 100px;
     }
+    .submit-1{
+        width:120px;
+        border-radius: 15px;
+        padding: 5px;
+        background-color: #093a3e;
+        color: #3aafb9;
+    }
+    .submit-2{
+        width:200px;
+        border-radius: 15px;
+        padding: 5px;
+        background-color: #093a3e;
+        color: #3aafb9;
+        margin-top: 10px;
+    }
+    .submit-2:hover,.submit-1:hover{
+        color:#093a3e;
+        background-color: #3aafb9;
+    }
     .m-10{
         display: block;
         margin-bottom: 10px;
+    }
+    .kol456{
+        color: #093a3e;
+        background-color: #3aafb9;
+        border: 1px solid silver;
+        border-radius: 10px;
+        width: 250px;
+        margin:15px auto;
+        padding: 15px;
+        
     }
 </style>
 <body>
@@ -64,8 +103,42 @@
 
         </nav>
         <main>
-            <h1>Collection element of web-form</h1>
+            <h1>WEB-Form: Form1</h1>
             <hr>
+            <section id="pers_info">
+                <form style="text-align:center;">
+                    <fieldset>
+                        <legend>Personal-Info</legend>
+                        <p>
+                            <label for="fname">User`s Name: </label>
+                            <input style="border-radius: 15px;" id="fname" type="text"> 
+                        </p>
+                        <p>
+                            <label for="sname">User`s Second-N</label>
+                            <input style="border-radius: 15px;" id="sname" type="text">
+                        </p>
+                        <form>
+                            <div style="text-align:center;">
+                                <label for="date" >Choose your date:</label>
+                                <input style="border-radius: 15px;" type="date" name="date" id="date">
+                            </div>
+                        </form>
+                        
+                            <label for="gender" class="m-10" style="margin-top:25px;">Choose Gender</label>
+                            <select  id="gender" style="font-size: 10pt; padding:5px;width: 100px;">
+                                <option value="1">Gender</option>
+                                <option value="2">MAN</option>
+                                <option value="3">WOMEN</option>
+                            </select>
+                            
+                        
+                        <input type="submit" value="Sent" class="submit-2">
+                    </fieldset>
+                </form>
+            </section>
+
+             <!--=================================================================================================================-->
+
             <section id="select">
                 <form >
                     <label for="cars" class="m-10">Choose auto</label>
@@ -74,7 +147,18 @@
                         <option value="2">BMW</option>
                         <option value="3">Kia</option>
                     </select>
-                    <input type="submit" value="Sent" class="submit">
+                    <input type="submit" value="Sent" class="submit-1">
+                </form>
+            </section>
+
+            <!--=================================================================================================================-->
+
+            <section id="textarea">
+                <h3>Textarea demo</h3>
+                <form >
+                    <label for="cars" class="m-10">Cin text</label>
+                    <textarea id="message" style="Width:95%;font-size: 12pt;resize: none;border-radius: 15px;" rows="5"></textarea><br>
+                    <input type="submit" value="Sent" class="submit-2">
                 </form>
             </section>
         </main>
