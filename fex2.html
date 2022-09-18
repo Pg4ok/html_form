@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <title>Html-Forms&Table</title>
+    <link rel="icon" href="img/logo.ico">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<style>
+    .mentavr10{
+        color: #093a3e;
+        background-color: #3aafb9;
+        border: 1px solid silver;
+        border-radius: 10px;
+        width: 400px;
+        margin:15px auto;
+        padding: 15px;
+        box-shadow: 5px 5px 20px silver;
+    }
+    select{
+        font-size: 13pt;
+        padding: 5px;
+        width: 100px;
+    }
+    .submit-1{
+        width:120px;
+        border-radius: 15px;
+        padding: 5px;
+        background-color: #093a3e;
+        color: #3aafb9;
+    }
+    .submit-2{
+        width:200px;
+        border-radius: 15px;
+        padding: 5px;
+        background-color: #093a3e;
+        color: #3aafb9;
+        margin-top: 10px;
+    }
+    .submit-2:hover,.submit-1:hover{
+        color:#093a3e;
+        background-color: #3aafb9;
+    }
+    .m-10{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .kol456{
+        color: #093a3e;
+        background-color: #3aafb9;
+        border: 1px solid silver;
+        border-radius: 10px;
+        width: 250px;
+        margin:15px auto;
+        padding: 15px;
+        
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <section class="left-pan">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+
+                    <li>
+                        <a href="">Forms</a>
+                        <ul>
+                            <li><a href="fex1.html">Form1</a></li>
+                            <li><a href="fex2.html">Form2</a></li>
+                            <li><a href="fex3.html">Form3</a></li>
+                            <li><a href="fex4.html">Form4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Tables</a>
+                        <ul>
+                            <li><a href="tex1.html">Example1</a></li>
+                            <li><a href="tex2.html">Example2</a></li>
+                            <li><a href="tex3.html">Example3</a></li>
+                            <li><a href="tex4.html">Example4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="tex1.html">Menu</a>
+                        <ul>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="right-pan">
+                <ul>
+                <li><a href="sign.html">Sign in</a></li>
+                <li><a href="login.html">Log-in</a></li>
+                </ul>
+            </section>
+
+        </nav>
+        <main>
+            <h1>WEB-Form: Form2</h1>
+            <hr>
+            <section class="mentavr10">
+                <form style="text-align:center;">
+                
+                        <legend>Personal-Info</legend>
+                        <p>
+                            <label for="fname">User`s Name: </label>
+                            <input style="border-radius: 15px;" id="fname" type="text"> 
+                        </p>
+                        <p>
+                            <label for="sname">User`s Second-N</label>
+                            <input style="border-radius: 15px;" id="sname" type="text">
+                        </p>
+                        <form>
+                            <div style="text-align:center;">
+                                <label for="date" >Choose your date:</label>
+                                <input style="border-radius: 15px;" type="date" name="date" id="date">
+                            </div>
+                        </form>
+                        
+                            <label for="gender" class="m-10" style="margin-top:25px;">Choose Gender</label>
+                            <select  id="gender" style="font-size: 10pt; padding:5px;width: 100px;border-radius: 15px;">
+                                <option value="1">Gender</option>
+                                <option value="2">MAN</option>
+                                <option value="3">WOMEN</option>
+                            </select>
+                            
+                        
+                        <input type="submit" value="Sent" class="submit-2">
+                    
+                </form>
+
+             <!--=================================================================================================================-->
+
+            
+                <h3>Account-Information</h3>
+                <form style="height:250px;">
+                    
+                    <p>
+                        <label for="email" style="float: left;margin-top: 10px;">Email: </label>
+                        <input style="border-radius: 15px; float: right;margin-top: 10px;" id="email" type="text">
+                    </p>
+                    
+                    <p>
+                        <label for="email" style="float: left;margin-right: 30px;margin-top: 10px;">Re-type Email: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="email" type="text">
+                        
+                    </p>
+                    <p>
+                        <label for="Password" style="float: left;margin-top: 10px;">Password: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="Password" type="password">
+                        
+                    </p>
+                    <p>
+                        <label for="Password" style="float: left;margin-top: 10px;">Re-type Password: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="Password" type="password">
+                        
+                    </p>
+                    <p>
+                        <label for="word" style="float: left;margin-top: 10px;">Security word: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="word" type="word">
+                        
+                    </p>
+                    <input type="submit" value="Sent" class="submit-1" style="margin-top: 25px;margin-left: 175px;">
+                </form>
+                
+            
+
+                <!--=================================================================================================================-->
+
+            
+                <h3>Contact Information</h3>
+                <form >
+                    <p>
+                        <label for="Adrees" style="float: left;margin-top: 10px;">Adress: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="Adrees" type="Adrees">
+                        
+                    </p>
+                    <br>
+                    <p>
+                        <label for="City" style="float: left;margin-top: 10px;">City: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="City" type="City">
+                        
+                    </p>
+                    <br>
+                    <p>
+                        <label for="Zip" style="float: left;margin-top: 10px;">Zip-code: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="Zip" type="Zip">
+                        
+                    </p>
+                    <br>
+                    <p>
+                        <label for="phone" style="float: left;margin-top: 10px;">Mob-Phone: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="phone" type="phone">
+                        
+                    </p>
+                    <input type="submit" value="Sent" class="submit-2">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <hr>
+            <h4>Copyright: &copy; Pugach-2022</h4>
+        </footer>
+    </header>
+</body>
+
+</html>
