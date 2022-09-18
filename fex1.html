@@ -125,7 +125,7 @@
                         </form>
                         
                             <label for="gender" class="m-10" style="margin-top:25px;">Choose Gender</label>
-                            <select  id="gender" style="font-size: 10pt; padding:5px;width: 100px;">
+                            <select  id="gender" style="font-size: 10pt; padding:5px;width: 100px;border-radius: 15px;">
                                 <option value="1">Gender</option>
                                 <option value="2">MAN</option>
                                 <option value="3">WOMEN</option>
@@ -139,25 +139,68 @@
 
              <!--=================================================================================================================-->
 
-            <section id="select">
-                <form >
-                    <label for="cars" class="m-10">Choose auto</label>
-                    <select  id="cars">
-                        <option value="1">Volvo</option>
-                        <option value="2">BMW</option>
-                        <option value="3">Kia</option>
-                    </select>
-                    <input type="submit" value="Sent" class="submit-1">
+            <section id="acc_info">
+                <h3>Account-Information</h3>
+                <form style="height:250px;">
+                    
+                    <p>
+                        <label for="email" style="float: left;margin-top: 10px;">Email: </label>
+                        <input style="border-radius: 15px; float: right;margin-top: 10px;" id="email" type="text">
+                    </p>
+                    
+                    <p>
+                        <label for="email" style="float: left;margin-right: 30px;margin-top: 10px;">Re-type Email: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="email" type="text">
+                        
+                    </p>
+                    <p>
+                        <label for="Password" style="float: left;margin-top: 10px;">Password: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="Password" type="password">
+                        
+                    </p>
+                    <p>
+                        <label for="Password" style="float: left;margin-top: 10px;">Re-type Password: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="Password" type="password">
+                        
+                    </p>
+                    <p>
+                        <label for="word" style="float: left;margin-top: 10px;">Security word: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="word" type="word">
+                        
+                    </p>
+                    <input type="submit" value="Sent" class="submit-1" style="margin-top: 25px;margin-left: 175px;">
                 </form>
+                
             </section>
 
             <!--=================================================================================================================-->
 
-            <section id="textarea">
-                <h3>Textarea demo</h3>
+            <section id="Con-info">
+                <h3>Contact Information</h3>
                 <form >
-                    <label for="cars" class="m-10">Cin text</label>
-                    <textarea id="message" style="Width:95%;font-size: 12pt;resize: none;border-radius: 15px;" rows="5"></textarea><br>
+                    <p>
+                        <label for="Adrees" style="float: left;margin-top: 10px;">Adress: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="Adrees" type="Adrees">
+                        
+                    </p>
+                    <br>
+                    <p>
+                        <label for="City" style="float: left;margin-top: 10px;">City: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="City" type="City">
+                        
+                    </p>
+                    <br>
+                    <p>
+                        <label for="Zip" style="float: left;margin-top: 10px;">Zip-code: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="Zip" type="Zip">
+                        
+                    </p>
+                    <br>
+                    <p>
+                        <label for="phone" style="float: left;margin-top: 10px;">Mob-Phone: </label>
+                        <input  style="border-radius: 15px; float: right;margin-top: 10px;" id="phone" type="phone">
+                        
+                    </p>
                     <input type="submit" value="Sent" class="submit-2">
                 </form>
             </section>
