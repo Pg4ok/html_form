@@ -13,18 +13,22 @@ div.banner2 {
     width: 100%;
     height: 350px;
     border-radius: 10px 10px 25% 25%;
-    text-align: left;
+   
     box-shadow: 7px 7px 25px #5cff59;
     
 }
+div.lower{
+    display: flex;
+    flex-direction: row;
+}
 .banner h2{
     margin-bottom: 25px;
-    margin-left: 100px;
+    margin-left: 50px;
     align-items: center;
 
 }
 .banner h5{
-    margin-left: 100px;
+    margin-left: 50px;
  align-items: center;
 
 }
@@ -46,4 +50,10 @@ div.layers_ico{
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+div img{
+    padding: 5px 5px 5px 5px;
+    border-radius: 50%;
+    background-color: azure;
+    box-shadow: 5px 5px 10px grey ;
 }
